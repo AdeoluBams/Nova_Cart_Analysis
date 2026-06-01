@@ -6,7 +6,8 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- 
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis Query Highlight](#data-analysis-query-highlight)
 
 
 ## Project Overview
@@ -31,14 +32,14 @@ Nova_Cart_Date: The primary dataset used for this analysis is the "Nova_Cart_dat
 -  Columns Formatting
 -  Data Grain_level Identification 
 
-## Exploratory Data Analysis/ Analysis Highlight
+## Exploratory Data Analysis
 - What is the overall sales trend?
 - Which products are the top sellers?
 - What are the peak sales period?
 - Which brand distrbuted the most orders?
 - Brand Retention Analysis
 
-## Data Analysis (Query) Highlight
+## Data Analysis Query Highlight
 ```sql
 -- Profit Margin
 WITH margin_calc AS (
