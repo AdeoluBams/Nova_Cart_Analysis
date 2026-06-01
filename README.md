@@ -17,9 +17,11 @@ Nova_Cart_Date: The primary dataset used for this analysis is the "Nova_Cart_dat
 
 ## Tools
 - Excel - Data Cleaning 
-  - [Download Here](https://microsoft.com)
+   - [Download Here](https://microsoft.com)
 - PostgreSQl - Data Analysis
+   - [Download Here](https://www.postgresql.org/download/)
 - PowerBI - Creating Report
+   - [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494&msockid=2fafce07f9f165923597d8d4f8e36471)
 
 ## Data Cleaning
 
