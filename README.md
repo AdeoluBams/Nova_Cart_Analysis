@@ -120,59 +120,6 @@ SELECT
 FROM brand_funnel_analysis
 ORDER BY conversion_rate DESC;
 ```
-```sql
--- month over month growth
-WITH month_month AS (
-	SELECT
-		EXTRACT(Year FROM order_date) AS year_,
-		SUM(total_amount) AS revenue
-	FROM public."Nova_data"
-	GROUP BY year_
-),
-revenue_diff AS(
- 	SELECT
-	 	year_,
-		revenue,
-		LAG(revenue) OVER(ORDER BY year_) AS prev_revenue
-	FROM month_month
-),
-growth_calc AS(
-	SELECT 
-		year_,
-		revenue,
-		prev_revenue,
-		(prev_revenue - revenue)/ NULLIF (prev_revenue,0) AS perc_change
-	FROM revenue_diff
-)
-SELECT *
-FROM growth_calc;
-```
-```sql
--- Seasonal sales analysis
-WITH seasonal_rev AS(
-	SELECT
-		EXTRACT(YEAR FROM order_date)	AS year_,
-		EXTRACT(MONTH FROM order_date)	AS month_,
-		COUNT(order_id) AS orders
-FROM public."Nova_data" 
-GROUP BY EXTRACT(MONTH FROM order_date), EXTRACT(YEAR FROM order_date)
-),
-month_classif AS (                                                   -- Customers tend to purchaae more during rainy season
-	SELECT *,
-		CASE 
-			WHEN month_ IN (11,12,1,2,3) THEN 'Dry Season'
-			ELSE 'Rainy Season'
-		END AS season
-	FROM seasonal_rev
-)
-SELECT 
-	year_,
-	season,
-	SUM(orders)  AS total_orders	
-FROM month_classif
-GROUP BY year_, season
-ORDER BY year_ ASC, total_orders DESC;
-```
 
 ## Result/Findings
 - The Company has a 13% proft Margin
