@@ -175,6 +175,13 @@ ORDER BY year_ ASC, total_orders DESC;
 ```
 
 ## Result/Findings
+- The Company has a 13% proft Margin
+- The Company is having a hige proble with customer retention
+- Zentrix Laptop is the product that generated the most Revenue, a total of ₦ 2,836,219.92 
+- Omnicore Brand contributed most to the revenue with a total revenue of  ₦ 17,895,583.03
+- New customers contributed most to the comany with a revenue of  ₦ 43,371,472.96 and a profit of ₦ 5,549,083.61
+- 
+[Access the full Report]
 
 ## Recommendations
 
