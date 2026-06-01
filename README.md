@@ -8,7 +8,9 @@
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis Query Highlight](#data-analysis-query-highlight)
-- [Result/Findings](#result/findings)
+- [Findings](#findings)
+- [Limitations](#limitations)
+- [References](#references)
 
 
 ## Project Overview
@@ -122,7 +124,7 @@ FROM brand_funnel_analysis
 ORDER BY conversion_rate DESC;
 ```
 
-## Result/Findings
+## Findings
 - The Company has a 13% proft Margin
 - The Company is having a hige proble with customer retention
 - Zentrix Laptop is the product that generated the most Revenue, a total of ₦ 2,836,219.92 
