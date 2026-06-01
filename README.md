@@ -130,7 +130,7 @@ ORDER BY conversion_rate DESC;
 [Access the full Report Here]
 
 ## Limitations
-There were 800 null names so I had to make use of the unique cusomer Id for quality control.
+There were 800 null names so I had to make use of the unique customer Id for quality control and analysis.
 
 ## References
 [Stack Overflow](https://stackoverflow.com/)
