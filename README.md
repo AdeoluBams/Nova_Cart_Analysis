@@ -10,6 +10,7 @@
 
 
 ## Project Overview
+This is an end-to-end Analysis into the sales nd operation performance of the e-commerc "Nova_Cart". By looking inti varoius aspect of the company data, we seek to identify  trends, sales drive, brand limitation and overall performance of the business
 
 ## Data Sources
 
