@@ -26,7 +26,8 @@ Nova_Cart_Date: The primary dataset used for this analysis is the "Nova_Cart_dat
 
 ## Data Cleaning
 - Data loading and Inspection
-- Gender, Sales Channel and Payment_method columns standardisation
+- Gender, Sales Channel and Payment_method, columns standardisation
+- Handling Null values
 -  Date Format transfromation ("yyy-MM-dd)
 -  Handling null values in customer rating
 -  Columns Formatting
