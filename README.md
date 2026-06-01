@@ -8,6 +8,7 @@
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis Query Highlight](#data-analysis-query-highlight)
+- [Result/Findings](#result/findings)
 
 
 ## Project Overview
