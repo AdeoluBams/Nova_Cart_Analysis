@@ -156,7 +156,7 @@ WITH seasonal_rev AS(
 FROM public."Nova_data" 
 GROUP BY EXTRACT(MONTH FROM order_date), EXTRACT(YEAR FROM order_date)
 ),
-month_classif AS (                                                         -- Customers tend to purchaae more during rainy season
+month_classif AS (                                                   -- Customers tend to purchaae more during rainy season
 	SELECT *,
 		CASE 
 			WHEN month_ IN (11,12,1,2,3) THEN 'Dry Season'
